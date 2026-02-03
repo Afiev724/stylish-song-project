@@ -6,9 +6,8 @@ body {
     /* Creates a background that starts white at the center 
        and fades to light gray at the edges */
 }
-    
 h1 {
-    color: darkblue;
+    color: rgb(102, 102, 194);
     /* Sets text color to a dark blue shade */
 
     padding: 8px;
@@ -21,7 +20,6 @@ h1 {
        - 6px blur radius (softness)
        - gray color */
 }
-    
 p {
     color: white;
     /* Sets lyric text color to white */
@@ -35,7 +33,7 @@ p {
     padding: 10px;
     /* Adds breathing room inside the paragraph box */
 
-    background: linear-gradient(to bottom right, darkblue, skyblue);
+    background: linear-gradient(to bottom right, rgb(147, 73, 147), rgb(221, 218, 131));
     /* Creates a gradient background flowing from top-left to bottom-right,
        starting with darkblue and ending with skyblue */
 
@@ -45,8 +43,7 @@ p {
     border-radius: 5px;
     /* Rounds the corners of the box by 5 pixels */
 }
-    
-/* Selects ONLY the 5th paragraph element */
+    /* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
     background: revert;
     box-shadow: revert;
@@ -56,7 +53,8 @@ p:nth-child(5) {
 }
 
 a {
-    font-size: 12px;
+    font-size: 16px;
     /* Makes the link text smaller */
 }
+    
     
